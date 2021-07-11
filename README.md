@@ -1,24 +1,12 @@
 # Javascript SDK
 
-The JS SDK is the frontend SDK, designed to be used in your HTML pages or Single-Page Apps, served in the Pi Browser.
-
-In order to enable the SDK to function correctly, you need to declare your apps on the Developer Portal (open
-develop.pi in the Pi Browser to access the Developer Portal).
-
-This SDK is **not** for a server-side NodeJS app.
 
 
 ## Installation
-
-Add the following `script` tags to all pages where you need the SDK to be available:
-
 ```html
 <script src="https://sdk.minepi.com/pi-sdk.js"></script>
 <script>Pi.init({ version: "2.0" })</script>
 ```
-
-This will load the Pi Network JS SDK as a global `window.Pi` object.
-
 ## Usage
 
 ### Authenticate a user
